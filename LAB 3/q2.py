@@ -13,7 +13,7 @@ def cropImage(input_image,output_image,x1,x2,y1,y2):
     croppedImage.show();
 
 def main():
-    input_image='lenna.jpg';
+    input_image='lenna.png';
     output_image='cropped.jpg';
     x1=100
     x2=600

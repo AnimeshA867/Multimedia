@@ -30,7 +30,7 @@ def binarize(image, threshold=128):
                 image.putpixel((x, y), (255, 255, 255))  # White
 
 def main():
-    input_image = "lenna.jpg"
+    input_image = "lenna.png"
     gray_output_image = "lenna_gray.jpg"
     binary_output_image = "lenna_binary.jpg"
     

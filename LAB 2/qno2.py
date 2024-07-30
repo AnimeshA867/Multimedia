@@ -33,7 +33,7 @@ def main():
         time.sleep(0.009)
 
     time.sleep(1)
-    pygame.quit()
+    # pygame.quit()
 
 if __name__ == "__main__":
     main()

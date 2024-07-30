@@ -13,7 +13,7 @@ def get_file_size(file_path):
     return os.path.getsize(file_path)
 
 def main():
-    input_image = "lenna.jpg"
+    input_image = "lenna.png"
     
     # Convert to PNG
     png_image = convert_image(input_image, "png")

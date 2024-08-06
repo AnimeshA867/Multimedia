@@ -18,6 +18,6 @@ def get_wave_params(filename):
     }
 
 # Example usage
-filename = 'file_example_WAV_1MG.wav'
+filename = 'music.wav'
 params = get_wave_params(filename)
 print(params)
